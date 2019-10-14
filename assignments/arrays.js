@@ -111,6 +111,8 @@ console.log(carYears);
 
 // ==== Challenge 5 ====
 // The car lot manager needs to find out how many cars are older than the year 2000. Using the carYears array you just created, find out how many cars were made before the year 2000 by populating the array oldCars and logging it's length.
+
+
 let oldCars = [];
   for (let i = 0; i < inventory.length; i++){
     if (inventory[i].car_year < 2000){
@@ -118,6 +120,15 @@ let oldCars = [];
     }
   }
 
+console.log(oldCars.length);
+
+
+//This is the stretch goal of using filter
+for (let i = 0; i < inventory.length; i++){
+  var oldCars = inventory.filter(function(number){
+    return number < 2000;
+  });
+}
 console.log(oldCars.length);
 
 
