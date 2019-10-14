@@ -123,13 +123,14 @@ let oldCars = [];
 console.log(oldCars.length);
 
 
-//This is the stretch goal of using filter
+//This is the stretch goal of using filter - need to redo
+/*
 for (let i = 0; i < inventory.length; i++){
   var oldCars = inventory.filter(function(number){
     return number < 2000;
   });
 }
-console.log(oldCars.length);
+console.log(oldCars.length); */
 
 
 

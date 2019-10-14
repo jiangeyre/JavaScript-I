@@ -10,6 +10,9 @@ let myFunction = () => {
 }
 console.log(myFunction());
 
+// let myFunction = () => "Function was invoked!";
+
+
 // let anotherFunction = function (param) {
 //   return param;
 // };
